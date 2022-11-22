@@ -35,7 +35,6 @@ ul li {
     display: flex;
     align-items: center;
     height: 60px;
-    margin-right: 40px;
 }
 
 .navbar .container ul {
@@ -44,7 +43,6 @@ ul li {
     align-items: center;
     max-width: 600px;
     flex-basis: 100%;
-
 }
 
 

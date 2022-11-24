@@ -121,6 +121,9 @@ ul li {
     gap: 20px;
 }
 
+.cards {
+    margin-bottom: 5px;
+}
 
 .cards .container .line {
     margin-top: 50px;
@@ -135,4 +138,60 @@ ul li {
 
 .cards .container .paragraphs {
     font-size: 10px;
+}
+
+.cards .container .items {
+    display: flex;
+    gap: 5px;
+}
+
+.cards .container .card-item {
+    background-color:rgb(1, 1, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    font-size: 10px;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lime;
+    padding: 3px;
+}
+
+.icon svg {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.cards .container .card-item h3 {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+}
+
+.cards .container .card-item p {
+    font-weight: 100;
+}
+
+.cards .container .card-item a {
+    color: #fff;
+}
+
+.cards .container .card-item .btn {
+    border: lime 1px solid;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 800;
 }
